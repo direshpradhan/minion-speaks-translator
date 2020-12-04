@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion speak</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Banana Talk</h1>
+    <nav>
+        <h1>Minion speak</h1>
+    </nav>
+    <div class="main">
+        <textarea id="text-input" placeholder="Enter the text you want to translate!!"></textarea>
+        <button id="btn-translate">Translate</button>
+
+        <div style="font-size: large; margin: 0rem 1rem; padding-top:1rem">Translated text 👇</div>
+        <div id="output"></div>
+    </div>
+
+    <footer>
+        <h3 style="margin: 0.5rem;">about</h3>
+        <p>Are you a fan of minions and want to speak their language? Use this translator and convert english text to minion language.</p> 
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
