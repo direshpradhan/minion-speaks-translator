@@ -9,7 +9,7 @@ function constructUrl(text) {
 }
 
 function errorHandler(error) {
-    alert("Something is wrong with server!! Please try again later.");
+    alert("Please enter some text to translate!!");
 }
 
 function clickEventHandler() {
